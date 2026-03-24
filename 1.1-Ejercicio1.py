@@ -1,8 +1,8 @@
-nombre_usuario = "Alan"
-edad = 17
-hobby = "me gusta leer y jugar juegos"
+nombre_usuario = input("Cual es tu nombre?: ")
+edad = input("Que edad tienes?: ")
+hobby = input("cual es tu hobby?: ")
 
-print(nombre_usuario)
-print(edad)
+print(f"Hola, mucho gusto mi nombre es {nombre_usuario} y tengo {edad} , cuando tengo tiempo libre me gusta {hobby}")
 
-print(f"Hola, mucho gusto mi nombre es {nombre_usuario} y tengo {edad} , cuando tengo tiempo libre {hobby}")
+comida = input("y tu comida favorita?: ")
+print(f"suena bien, porque no me das un poco de {comida}? ")

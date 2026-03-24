@@ -1,7 +1,31 @@
-print("Calculadora area de un triangulo")
+print("Calculadora simple")
 
-base = int(input("Valor de la base: "))
-altura = int(input("Valor de la altura: "))
-area = (base * altura)/2
+num1 = int(input("1er valor: "))
+num2 = int(input("2do valor: "))
 
-print(f"el valor de la area es {area} cm cuadrados")
+Suma = (num1 + num2)
+
+print(f"la suma es: {Suma}")
+
+num1 = int(input("1er valor: "))
+num2 = int(input("2do valor: "))
+
+resta = (num1 - num2)
+
+print(f"la resta es: {resta}")
+
+num1 = int(input("1er valor: "))
+num2 = int(input("2do valor: "))
+
+multi = (num1 * num2)
+
+print(f"la multiplicacion es: {multi}")
+
+num1 = int(input("1er valor: "))
+num2 = int(input("2do valor: "))
+
+divi = (num1 / num2)
+
+print(f"la division es: {divi}")
+
+

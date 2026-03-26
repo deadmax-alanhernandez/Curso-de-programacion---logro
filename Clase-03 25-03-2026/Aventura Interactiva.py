@@ -15,5 +15,6 @@ if ruta1 == "IZQUIERDA":
             print("¿Pero que haces? ¿Porque se te ocurre consumir una bomba ENTERA?. Al ser una bomba creada con materiales muy volatiles al ingresar a tu cuerpo explota, causando que termines en mil pedazos")
             print("GAME OVER")
         elif bomba == "GUARDARLA":
-            guardar = str(input("Decides almacenar la bomba por si la necesitas, en otra ocasion. Parece que las ratas se dispersaron un poco como para escubillirte o para salir corriendo directamente a la salida. ¿Que haces ahora?: (CORRER, ESCARBULLISE, QUEDARSE)"))
+            guardar = str(input("Decides almacenar la bomba por si la necesitas, en otra ocasion. Parece que las ratas se dispersaron un poco como para escubillirte o para salir corriendo directamente a la salida. ¿Que haces ahora?: (CORRER, ESCARBULLISE, QUEDARSE)").upper())
+            if guardar == "QUEDARSE":
 

@@ -1,5 +1,5 @@
 print("Validador de Calificaciones")
-print("Minimo para pasar: 6.0 - Maximo para pasar: 10.0")
+print("\nMinimo para pasar: 6.0 - Maximo para pasar: 10.0")
 nota1 = float(input("\nIngrese la 1ra nota: "))
 nota2 = float(input("\nIngrese la 2da nota: "))
 nota3 = float(input("\nIngrese la 3ra nota: "))
@@ -10,8 +10,8 @@ tupla = (6.0, 10.0)
 
 for it in lista:
     if it >= tupla[0] and it <= tupla[1]:
-        print(f"Tu calificacion es {it}, aprobaste! ")
+        print(f"\nTu calificacion es {it}, aprobaste! ")
     elif it < tupla[0] and it > 0:
-        print(f"Tu calificacion es {it}, estas desaprobado")
+        print(f"\nTu calificacion es {it}, estas desaprobado")
     else:
-        print(f"Error, valor no valido")
+        print(f"\nError, valor no valido")

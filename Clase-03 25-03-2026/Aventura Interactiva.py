@@ -17,4 +17,5 @@ if ruta1 == "IZQUIERDA":
         elif bomba == "GUARDARLA":
             guardar = str(input("Decides almacenar la bomba por si la necesitas, en otra ocasion. Parece que las ratas se dispersaron un poco como para escubillirte o para salir corriendo directamente a la salida. ¿Que haces ahora?: (CORRER, ESCARBULLISE, QUEDARSE)").upper())
             if guardar == "QUEDARSE":
+                print("")
 

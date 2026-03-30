@@ -1,5 +1,6 @@
 print("Evaluador de contraseñas seguras")
 print("\nLa longitud minima son 8 caracteres y la maxima 20")
+print("\nDeben contener algun caracter especial")
 tamano = (8, 20)
 contrasenas = input("\nIngrese sus contraseñas, separelas con comas y sin espacios: ")
 lista = contrasenas.split()

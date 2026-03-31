@@ -1,15 +1,14 @@
 print("Calculadora de promedio")
 
 lista = []
-seguir = True
 print("Creara una lista de numeros, cuando haya completado su lista ingrese (FIN)")
-while seguir:
+while True:
     numero = float(input("Ingrese un numero: "))
     if numero > 0:
         lista.append(numero)
         continuar = input("Desea continuar? (FIN/SI): ").upper()
         if continuar == "FIN":
-            seguir = False
+            break
         elif continuar == "SI":
             print("Continuemos")
             print(f"Lista: {lista}")

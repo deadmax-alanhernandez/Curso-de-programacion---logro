@@ -1,0 +1,8 @@
+h1, h2, h3 {
+    font-family:'Verdana', sans-serif;
+}
+
+#menu-principal a {
+    text-decoration: none;
+    color: black;
+}

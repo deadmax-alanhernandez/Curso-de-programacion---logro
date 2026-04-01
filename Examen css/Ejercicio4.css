@@ -1,0 +1,15 @@
+:root{
+    --color-primario:#d9534f;
+    --color-texto-claro:#ffffff;
+    --fuente-titulos:'Georgia',serif;
+}
+
+.boton-cancelar{
+    background-color: var(--color-primario);
+    color: var(--color-texto-claro);
+}
+
+.titulo-seccion{
+    font-family: var(--fuente-titulos);
+    color: var(--color-primario);
+}

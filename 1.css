@@ -1,0 +1,36 @@
+:root {
+    --color_fondo: #2d2327
+}
+
+body {
+    background-color: var(--color_fondo);
+}
+
+.container {
+    background-color: antiquewhite;
+}
+
+.container p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+    text-decoration: none;
+    background-color:yellowgreen;
+    opacity:0.8;
+    margin-top: 10px;
+    line-height: 1.0;
+    text-transform: capitalize;
+}
+
+.container h1 {
+    background-color: aqua;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+

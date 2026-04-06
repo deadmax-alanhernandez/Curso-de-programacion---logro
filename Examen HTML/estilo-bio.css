@@ -1,0 +1,98 @@
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+    color: darkblue;
+    border: 3px solid gray;
+    width: 550px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 10px 10px 20px black;
+
+}
+
+main {
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px
+}
+
+.sobremi h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-top: 15px;
+    color: darkblue;
+}
+
+.sobremi img{
+    width: 300px;
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+
+.hobbies{
+    background-color: beige;
+    margin: 10px;
+    border: 4px solid gray;
+
+}
+.hobbies h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    color: darkblue;
+}
+.hobbies ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.hobbies li {
+    list-style: none;
+    padding: 5px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+
+.pie {
+    text-align: center;
+    background-color: beige;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 4px solid gray;
+}
+
+.pie h2 {
+    color: darkblue;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pie ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pie li {
+    list-style: none;
+    padding: 5px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+
+}
+
+
+

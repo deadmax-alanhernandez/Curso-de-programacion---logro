@@ -1,0 +1,9 @@
+.destacado {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#resumen {
+    background-color: aquamarine;
+    font-style: italic;
+}

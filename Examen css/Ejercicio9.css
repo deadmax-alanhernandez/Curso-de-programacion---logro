@@ -1,0 +1,14 @@
+.panel {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 800px){
+.contenedor-responsivo{
+    display: flex;
+    gap: 20px;
+}
+.panel {
+    width: 50%;
+}
+}

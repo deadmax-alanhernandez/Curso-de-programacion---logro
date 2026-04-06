@@ -1,0 +1,9 @@
+.uno {
+    width: 300px;
+    height: 300px;
+    padding: 200px;
+    border: 50px solid black;
+    margin: auto;
+    box-sizing:border-box;
+    background-color: aqua;
+}

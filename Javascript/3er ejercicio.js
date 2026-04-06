@@ -1,3 +1,5 @@
+console.log("Calificador de edad para conducir")
+
 let edadusuario = 20;
 
 if (edadusuario < 18)

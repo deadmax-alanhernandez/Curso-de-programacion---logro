@@ -1,3 +1,5 @@
+console.log("Catalogo de producto")
+
 const nombreProducto = "Tablet 10 pulgadas";
 
 let precio = 450.99;

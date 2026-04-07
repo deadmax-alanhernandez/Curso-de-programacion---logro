@@ -9,8 +9,8 @@ for ($it = 1; $it<=50; $it++) {
    else
    $impares++;
 }
-echo "Cantidad de numeros pares: ". $pares."\n";
-echo "Cantidad de numeros impares: ". $impares."\n";
+echo "\nCantidad de numeros pares: ". $pares."\n";
+echo "\nCantidad de numeros impares: ". $impares."\n";
 
     
 ?>

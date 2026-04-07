@@ -1,0 +1,26 @@
+@keyframes girar {
+    
+    0% {transform: rotate(0deg);}
+
+    
+    100% {transform: rotate(360deg)}
+}
+
+.carga {
+    display: flex;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 12px;
+    gap: 10px;
+}
+
+.gira {
+    width: 20px;
+    height: 20px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    border-top: 3px solid blue;
+    animation: girar 1s linear infinite;
+}

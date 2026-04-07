@@ -1,0 +1,13 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px ;
+    gap: 10px;
+    max-width: 500px;
+    background-color: beige;
+}
+
+.grid{
+    background-color: wheat;
+    
+}

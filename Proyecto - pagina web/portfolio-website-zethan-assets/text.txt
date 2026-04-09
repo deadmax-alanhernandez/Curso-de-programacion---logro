@@ -1,7 +1,6 @@
 ========== NAVBAR ==========
 .nav-logo
 Zethan 
-
 .nav-name
 Home 
 About

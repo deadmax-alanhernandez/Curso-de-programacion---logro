@@ -1,4 +1,5 @@
 <?php
+echo"\nContador de pares y impares";
 $pares = 0;
 $impares = 0;
 

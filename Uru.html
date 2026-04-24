@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Definitivo - URU</title>
+    <style>
+        /* Configuraciones para impresión en 1 o 2 hojas (más legible) */
+        @page { margin: 1cm; size: A4 portrait; }
+        body { 
+            font-family: 'Helvetica Neue', Arial, sans-serif; 
+            font-size: 8.5pt; /* Letra un poco más grande para mejor lectura */
+            line-height: 1.2; 
+            margin: 0; 
+            padding: 0; 
+            color: #000;
+        }
+        .container { 
+            column-count: 2; /* Bajamos a 2 columnas para que las ecuaciones REDOX quepan bien */
+            column-gap: 15px; 
+            column-rule: 0.5px solid #ccc;
+        }
+        h1 { 
+            font-size: 12pt; 
+            text-align: center; 
+            margin: 0 0 10px 0; 
+            column-span: all; 
+            background: #000; 
+            color: #fff; 
+            padding: 5px;
+            text-transform: uppercase;
+        }
+        h2 { 
+            font-size: 10pt; 
+            background-color: #ddd; 
+            border-left: 4px solid #000; 
+            margin: 10px 0 5px 0; 
+            padding: 3px 6px; 
+            break-after: avoid; 
+        }
+        h3 { 
+            font-size: 9pt; 
+            text-decoration: underline;
+            margin: 6px 0 3px 0; 
+            break-after: avoid; 
+        }
+        p { margin: 0 0 4px 0; }
+        .formula-box { 
+            border: 1px solid #555; 
+            padding: 5px; 
+            margin-bottom: 5px; 
+            background-color: #fafafa;
+            break-inside: avoid;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-bottom: 6px; 
+            font-size: 8pt; 
+            break-inside: avoid;
+        }
+        th, td { 
+            border: 1px solid #888; 
+            padding: 4px; 
+            text-align: left; 
+        }
+        th { background-color: #eee; font-weight: bold; }
+        ul { margin: 0; padding-left: 15px; margin-bottom: 5px;}
+        li { margin-bottom: 2px; }
+        .highlight { font-weight: bold; color: #000; }
+    </style>
+</head>
+<body>
+
+    <h1>FORMULARIO ADMISIÓN URU - CIENCIAS EXACTAS</h1>
+
+    <div class="container">
+        
+        <!-- ============================== FÍSICA ============================== -->
+        <h2>FÍSICA</h2>
+        
+        <h3>Conversiones Universales</h3>
+        <div class="formula-box">
+            <p><b>Velocidad:</b> km/h &divide; 3.6 &rarr; m/s | m/s &times; 3.6 &rarr; km/h</p>
+            <p><b>Longitud (1D):</b> km &rarr; m (&times; 10&sup3;) | m &rarr; cm (&times; 10&sup2;)</p>
+            <p><b>Área (2D):</b> m&sup2; &rarr; cm&sup2; (&times; 10&sup4;) | cm&sup2; &rarr; m&sup2; (&divide; 10&sup4;)</p>
+            <p><b>Volumen (3D):</b> m&sup3; &rarr; cm&sup3; (&times; 10&sup6;)<br> 1 Litro = 1000 cm&sup3; = 1 dm&sup3; = 0.001 m&sup3;</p>
+            <p><b>Masa y Fuerza:</b> 1 Ton = 1000 kg | 1 kgf = 9.8 N</p>
+            <p><b>Tiempo:</b> 1h = 60 min = 3600 s</p>
+            <p><b>Química:</b> 1 atm = 760 mmHg = 760 torr</p>
+            <p><b>Temp:</b> K = &deg;C + 273.15 | &deg;F = 1.8(&deg;C) + 32</p>
+            <p><b>Moles:</b> 1 mol = Masa Molar (g) = 6.022&times;10&sup2;&sup3; part.</p>
+        </div>
+
+        <h3>Cinemática Completa</h3>
+        <p><b>MRU (Vel. Constante):</b> d = v &middot; t</p>
+        <div class="formula-box">
+            <p><b>MRUV (Acelerado + / Frenado -):</b></p>
+            <ul>
+                <li>Sin dist: v<sub>f</sub> = v<sub>i</sub> &plusmn; a&middot;t</li>
+                <li>Sin t: v<sub>f</sub>&sup2; = v<sub>i</sub>&sup2; &plusmn; 2&middot;a&middot;d</li>
+                <li>Sin v<sub>f</sub>: d = v<sub>i</sub>&middot;t &plusmn; (a&middot;t&sup2;)/2</li>
+                <li>Sin a: d = [(v<sub>f</sub> + v<sub>i</sub>)/2] &middot; t</li>
+            </ul>
+        </div>
+        <div class="formula-box">
+            <p><b>Mov. Vertical (Caída + / Subida -) | g = 9.8 m/s&sup2;:</b></p>
+            <p><i>Caída libre: v<sub>i</sub>=0. Altura máx: v<sub>f</sub>=0.</i></p>
+            <p>v<sub>f</sub> = v<sub>i</sub> &plusmn; gt | v<sub>f</sub>&sup2; = v<sub>i</sub>&sup2; &plusmn; 2gh | h = v<sub>i</sub>t &plusmn; gt&sup2;/2</p>
+            <p>t<sub>max</sub> = v<sub>i</sub>/g | h<sub>max</sub> = v<sub>i</sub>&sup2;/2g</p>
+        </div>
+        <div class="formula-box">
+            <p><b>Parabólico (Proyectiles):</b></p>
+            <p>Eje X (MRU): v<sub>x</sub> = v<sub>i</sub>&middot;cos(&theta;) | d = v<sub>x</sub>&middot;t</p>
+            <p>Eje Y (Caída): v<sub>iy</sub> = v<sub>i</sub>&middot;sen(&theta;)</p>
+            <p>t<sub>vuelo</sub> = 2v<sub>iy</sub>/g | h<sub>max</sub> = v<sub>iy</sub>&sup2;/2g | d<sub>max</sub> = v<sub>i</sub>&sup2;&middot;sen(2&theta;)/g</p>
+        </div>
+        <div class="formula-box">
+            <p><b>Circular Uniforme (MCU):</b></p>
+            <p>T = 1/f | &omega; = 2&pi;/T = 2&pi;f | v = &omega;&middot;r | a<sub>c</sub> = v&sup2;/r = &omega;&sup2;&middot;r</p>
+        </div>
+
+        <h3>Vectores (Incluye i, j, k)</h3>
+        <div class="formula-box">
+            <p><b>Descomposición:</b> V<sub>x</sub> = V &middot; cos(&theta;) | V<sub>y</sub> = V &middot; sen(&theta;)</p>
+            <p><b>Módulo y Ángulo:</b> |V| = &radic;(V<sub>x</sub>&sup2; + V<sub>y</sub>&sup2;) | &theta; = arctan(V<sub>y</sub>/V<sub>x</sub>)</p>
+            <p><b>Notación i, j, k:</b> V = V<sub>x</sub>i&#x0302; + V<sub>y</sub>j&#x0302; + V<sub>z</sub>k&#x0302;</p>
+            <p><i>Ejemplo Suma:</i> A=(2i + 3j), B=(i - j) &rarr; A+B = 3i + 2j</p>
+            <p><i>Ejemplo Módulo:</i> Si A=3i-4j &rarr; |A|=&radic;(3&sup2;+(-4)&sup2;)=5</p>
+        </div>
+
+        <h3>Dinámica</h3>
+        <div class="formula-box">
+            <p><b>2da Ley Newton:</b> &Sigma;F = m &middot; a</p>
+            <p><b>Peso (P):</b> P = m &middot; g <i>(Hacia el centro de la Tierra)</i></p>
+            <p><b>Fricción / Roce (F<sub>r</sub>):</b> F<sub>r</sub> = &mu; &middot; N</p>
+            <p><b>Plano Inclinado (&theta; con horizontal):</b><br>
+               P<sub>x</sub> = P&middot;sen(&theta;) <i>(Desliza)</i> | P<sub>y</sub> = P&middot;cos(&theta;) <i>(Presiona, N=P<sub>y</sub>)</i></p>
+        </div>
+
+
+        <!-- ============================== MATEMÁTICA ============================== -->
+        <h2>MATEMÁTICA</h2>
+
+        <h3>Factorización y Productos Notables</h3>
+        <div class="formula-box">
+            <p><b>Dif. Cuadrados:</b> a&sup2; - b&sup2; = (a-b)(a+b)</p>
+            <p><b>Trinomio Cuadrado Perf:</b> (a &plusmn; b)&sup2; = a&sup2; &plusmn; 2ab + b&sup2;</p>
+            <p><b>Cubo Perfecto:</b> (a &plusmn; b)&sup3; = a&sup3; &plusmn; 3a&sup2;b + 3ab&sup2; &plusmn; b&sup3;</p>
+            <p><b>Diferencia Cubos:</b> a&sup3; - b&sup3; = (a-b)(a&sup2; + ab + b&sup2;)</p>
+            <p><b>Suma Cubos:</b> a&sup3; + b&sup3; = (a+b)(a&sup2; - ab + b&sup2;)</p>
+            <p><b>Fórmula Resolvente:</b> x = [ -b &plusmn; &radic;(b&sup2; - 4ac) ] / 2a</p>
+        </div>
+
+        <h3>Trigonometría (Teoremas y Ángulos)</h3>
+        <div class="formula-box">
+            <p><b>Pitágoras:</b> H&sup2; = C.Op&sup2; + C.Ady&sup2;</p>
+            <p><b>SOH-CAH-TOA:</b> Sen=Op/H | Cos=Ad/H | Tan=Op/Ad</p>
+            <p><b>Identidad Fundamental:</b> sen&sup2;(&theta;) + cos&sup2;(&theta;) = 1</p>
+        </div>
+        <div class="formula-box">
+            <p><b>Ley del Seno:</b> a / sen(A) = b / sen(B) = c / sen(C)</p>
+            <p><b>Ley del Coseno:</b> c&sup2; = a&sup2; + b&sup2; - 2ab&middot;cos(C)</p>
+        </div>
+        <table>
+            <tr><th>&theta;</th><th>Sen</th><th>Cos</th><th>Tan</th></tr>
+            <tr><td><b>30&deg;</b></td><td>1/2</td><td>&radic;3/2</td><td>&radic;3/3</td></tr>
+            <tr><td><b>45&deg;</b></td><td>&radic;2/2</td><td>&radic;2/2</td><td>1</td></tr>
+            <tr><td><b>60&deg;</b></td><td>&radic;3/2</td><td>1/2</td><td>&radic;3</td></tr>
+        </table>
+
+
+        <!-- ============================== QUÍMICA ============================== -->
+        <h2>QUÍMICA</h2>
+
+        <h3>Configuración Electrónica y Orbitales</h3>
+        <div class="formula-box">
+            <p><b>Leyenda de Orbitales (Máx e-):</b> s(2), p(6), d(10), f(14)</p>
+            <p><b>Lluvia (Moeller):</b> 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s...</p>
+            <p><b>Atajo KERNEL (Gases Nobles):</b><br>
+               [He]2 | [Ne]10 | [Ar]18 | [Kr]36 | [Xe]54<br>
+               <i>Ej: Magnesio (Z=12) &rarr; [Ne] 3s&sup2;</i>
+            </p>
+        </div>
+
+        <h3>Balanceo por Tanteo (M-N-H-O)</h3>
+        <div class="formula-box">
+            <p><b>Orden Estricto:</b> Metal &rarr; No Metal &rarr; Hidrógeno &rarr; Oxígeno.</p>
+            <p><i>Ejemplo: Al + HCl &rarr; AlCl<sub>3</sub> + H<sub>2</sub></i></p>
+            <p>1. Metal (Al): Está 1 a 1.<br>
+               2. No Metal (Cl): 3 a la derecha, pongo 3 a la izquierda (3HCl).<br>
+               3. H: Quedan 3 H izq y 2 H der. Multiplico cruzado para evitar decimales. Multiplico todo por 2.<br>
+               <b>Final: 2</b> Al + <b>6</b> HCl &rarr; <b>2</b> AlCl<sub>3</sub> + <b>3</b> H<sub>2</sub>
+            </p>
+        </div>
+
+        <h3>Balanceo REDOX (Óxido-Reducción)</h3>
+        <div class="formula-box">
+            <p><b>Conceptos Clave:</b></p>
+            <ul>
+                <li><b>Oxidación:</b> Pierde electrones (e-). Su valencia <b>AUMENTA</b>. Es el Agente Reductor. <i>(Ej: Fe<sup>+2</sup> &rarr; Fe<sup>+3</sup> + 1e-)</i></li>
+                <li><b>Reducción:</b> Gana electrones (e-). Su valencia <b>DISMINUYE</b>. Es el Agente Oxidante. <i>(Ej: S<sup>+6</sup> + 2e- &rarr; S<sup>+4</sup>)</i></li>
+            </ul>
+            <p><b>Paso a Paso del Balanceo:</b></p>
+            <ol style="margin: 0; padding-left: 15px;">
+                <li>Asignar valencias (estado de oxidación) a todos los elementos (O = -2, H = +1, Elementos solos = 0).</li>
+                <li>Identificar quién se Oxida (Sube valencia) y quién se Reduce (Baja valencia).</li>
+                <li>Escribir semi-reacciones y balancear la masa (cantidad de átomos).</li>
+                <li>Balancear la carga sumando electrones (e-).</li>
+                <li>Multiplicar "en cruz" las semi-reacciones por el número de electrones intercambiados para igualarlos.</li>
+                <li>Sumar, simplificar electrones, y colocar los coeficientes en la ecuación original. Terminar por tanteo.</li>
+            </ol>
+            <p><i>Ejemplo Rápido: Fe + CuSO<sub>4</sub> &rarr; FeSO<sub>4</sub> + Cu</i></p>
+            <ul>
+                <li>Fe<sup>0</sup> pasa a Fe<sup>+2</sup> (Aumentó = Se Oxida / Pierde 2e-)</li>
+                <li>Cu<sup>+2</sup> pasa a Cu<sup>0</sup> (Disminuyó = Se Reduce / Gana 2e-)</li>
+            </ul>
+        </div>
+
+        <h3>Nomenclatura (Regla: Suma Valencias = 0)</h3>
+        <p><i>O: -2 | H: +1 | Alcalinos: +1 | Alcalinotérreos: +2</i></p>
+        <p><i>Terminaciones Ácidos: oso (menor), ico (mayor).</i></p>
+        <p><i>Terminaciones Sales: oso&rarr;ito, ico&rarr;ato.</i></p>
+        
+        <table>
+            <tr><th>Tipo</th><th>Fórmula/Valencia</th><th>Los 3 Nombres (Trad, Stock, Sist)</th></tr>
+            
+            <tr>
+                <td><b>Óxido</b><br>(M/nM + O)</td>
+                <td><b>Fe<sub>2</sub>O<sub>3</sub></b><br><i>(Fe usa +3)</i></td>
+                <td><b>Trad:</b> Óxido férrico<br>
+                    <b>Stock:</b> Óxido de hierro (III)<br>
+                    <b>Sist:</b> Trióxido de dihierro</td>
+            </tr>
+            
+            <tr>
+                <td><b>Hidruro</b><br>(Metal+H)</td>
+                <td><b>CaH<sub>2</sub></b><br><i>(Ca usa +2)</i></td>
+                <td><b>Trad:</b> Hidruro cálcico<br>
+                    <b>Stock:</b> Hidruro de calcio (II)<br>
+                    <b>Sist:</b> Dihidruro de calcio</td>
+            </tr>
+
+            <tr>
+                <td><b>Hidróxido</b><br>(Metal+OH)</td>
+                <td><b>Al(OH)<sub>3</sub></b><br><i>(Al usa +3)</i></td>
+                <td><b>Trad:</b> Hidróxido alumínico<br>
+                    <b>Stock:</b> Hidróxido de aluminio (III)<br>
+                    <b>Sist:</b> Trihidróxido de aluminio</td>
+            </tr>
+
+            <tr>
+                <td><b>Ácido</b><br>(H + nM + O)</td>
+                <td><b>H<sub>2</sub>SO<sub>4</sub></b><br><i>(S usa +6)</i></td>
+                <td><b>Trad:</b> Ácido sulfúrico<br>
+                    <b>Stock:</b> Ácido tetraoxosulfúrico (VI)<br>
+                    <b>Sist:</b> Tetraoxosulfato (VI) de hidrógeno</td>
+            </tr>
+
+            <tr>
+                <td><b>Sal</b><br>(M + nM + O)</td>
+                <td><b>Cu(NO<sub>3</sub>)<sub>2</sub></b><br><i>(N usa+5, Cu usa+2)</i></td>
+                <td><b>Trad:</b> Nitrato cúprico<br>
+                    <b>Stock:</b> Nitrato de cobre (II)<br>
+                    <b>Sist:</b> Bis[trioxonitrato (V)] de cobre</td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
